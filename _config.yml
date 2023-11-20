@@ -125,6 +125,7 @@ deploy:
     token: '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'
     name: liangzhu815
     email: liangzhu@bii.a-star.edu.sg
+    ignore_hidden: false
   - type: firebase
     id: hexo-27579
 
