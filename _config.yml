@@ -23,7 +23,7 @@ pretty_urls:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: /tmp/public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -108,15 +108,27 @@ ignore:
 #deploy:
 #  type: ''
 deploy:
-  type: rsync
-  host: localhost
-  user: liangzhu
-  root: /afs/bii.a-star.edu.sg/home/liangzhu/public_html/
-  port: 22
-  delete: true
-  verbose: true
-  ignore_errors: true
+  - type: rsync
+    host: localhost
+    user: liangzhu
+    root: /afs/bii.a-star.edu.sg/home/liangzhu/public_html/
+    port: 22
+    delete: true
+    verbose: true
+    ignore_errors: true
+  - type: netlify
+    token: nfp_FpfL799S3FGLctqDBtqnGxtVd9iP6Fgpff36
+    site_id: unique-kataifi-b89191 
+  - type: git
+    repo: https://github.com/liangzhu815/hexo-public
+    branch: main
+    token: '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'
+    name: liangzhu815
+    email: liangzhu@bii.a-star.edu.sg
+  - type: firebase
+    id: hexo-27579
 
+#https://github.com/buxuku/hexo-auto-issue
 
 generator_amp:
   templateDir:  amp-template
