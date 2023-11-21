@@ -16,8 +16,8 @@ timezone: 'Asia/Singapore'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://web.bii.a-star.edu.sg/
-root: /~liangzhu/
+url: http://web.bii.a-star.edu.sg/~liangzhu/
+#root: /~liangzhu/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -134,41 +134,72 @@ deploy:
 
 #https://github.com/buxuku/hexo-auto-issue
 
-#generator_amp:
-#  templateDir:  amp-template
-#  assetDistDir: amp-dist
-#  logo:
-#    path:   sample/sample-logo.png
-#    width:  600
-#    height: 60
-#  substituteTitleImage:
-#    path:   sample/sample-substituteTitleImage.png
-#    width:  1024
-#    height: 800
-#  warningLog: false   # To display warning, please set true.
+generator_amp:
+  templateDir:  amp-template
+  assetDistDir: amp-dist
+  logo:
+    path:   sample/sample-logo.png
+    width:  600
+    height: 60
+  substituteTitleImage:
+    path:   sample/sample-substituteTitleImage.png
+    width:  1024
+    height: 800
+  warningLog: false   # To display warning, please set true.
 
 
-#asset_pipeline:
-#  revisioning:
-#    enable: true
-#  clean_css:
-#    enable: true
-#  uglify_js:
-#    enable: true
-#  imagemin:
-#    enable: true
-#  html_minifier:
-#    enable: true
+asset_pipeline:
+  revisioning:
+    enable: true
+  clean_css:
+    enable: true
+  uglify_js:
+    enable: true
+  imagemin:
+    enable: true
+  html_minifier:
+    enable: true
 
 
-#autolinker:
-#    enable: true
-#    newWindow: true
-#    urls: true
-#    email: true
-#    tel: true
-#    twitter: true
-#    hashtag: facebook
-#    className: 'autolinker'
+autolinker:
+    enable: true
+    newWindow: true
+    urls: true
+    email: true
+    tel: true
+    twitter: true
+    hashtag: facebook
+    className: 'autolinker'
 
     
+
+auto_tag:
+  enable: true
+  apiKey: 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 
+  threshold: 0.23 # range: 0-1, 0.23 has been tested to be a good value. Lower values tend to result in fewer tags being assigned to a post.
+  tags:
+    - hosting
+    - linux
+    - storage
+    - auth
+    - backup
+    - deploy
+    - firebase
+    - fly.io
+    - fonts
+    - github pages
+    - hexo
+    - ldap
+    - netlify
+    - nfs
+    - nvr
+    - roaming-profile
+    - rsync
+    - saml
+    - secrets
+    - sso
+    - test
+
+
+
+

@@ -14,7 +14,7 @@
   "dependencies": {
     "hexo": "^7.0.0",
     "hexo-asset-pipeline": "^1.8.0",
-    "hexo-auto-excerpt": "^1.1.2",
+    "hexo-auto-tag": "^2.0.1",
     "hexo-autolinker": "^1.0.1",
     "hexo-deployer-firebase": "^1.0.5",
     "hexo-deployer-git": "^4.0.0",
