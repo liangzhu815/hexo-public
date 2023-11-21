@@ -3,11 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "30 Biopolis Street,#07-01 Matrix,Singapore 138671 tel 64788410, 64788327"
-description: 'We do not believe any group of men adequate enough or wise enough to operate without scrutiny or without criticism. We know that the only way to avoid error is to detect it, that the only way to detect it is to be free to enquire. We know that the wages of secrecy are corruption. We know that in secrecy error, undetected, will flourish and subvert.'
-subtitle: 'The Wheel of Time turns, and Ages come and pass, leaving memories that become legend. Legend fades to myth, and even myth is long forgotten when the Age that gave it birth comes again.'
+#title: "30 Biopolis Street,#07-01 Matrix,Singapore 138671 tel 64788410, 64788327"
+#description: 'We do not believe any group of men adequate enough or wise enough to operate without scrutiny or without criticism. We know that the only way to avoid error is to detect it, that the only way to detect it is to be free to enquire. We know that the wages of secrecy are corruption. We know that in secrecy error, undetected, will flourish and subvert.'
+#subtitle: 'The Wheel of Time turns, and Ages come and pass, leaving memories that become legend. Legend fades to myth, and even myth is long forgotten when the Age that gave it birth comes again.'
+title: "pure static"
+description: "https://unique-kataifi-b89191.netlify.app/ , https://liangzhu815.github.io/hexo-public/index.html , https://hexo-27579.web.app/ "
+subtitle: "https://unique-kataifi-b89191.netlify.app/ | https://liangzhu815.github.io/hexo-public/index.html | https://hexo-27579.web.app/ "
 keywords:
-author: lz
+author: "30 Biopolis Street,#07-01 Matrix,Singapore 138671 tel 64788410, 64788327"
 language: en
 timezone: 'Asia/Singapore'
 
@@ -131,28 +134,41 @@ deploy:
 
 #https://github.com/buxuku/hexo-auto-issue
 
-generator_amp:
-  templateDir:  amp-template
-  assetDistDir: amp-dist
-  logo:
-    path:   sample/sample-logo.png
-    width:  600
-    height: 60
-  substituteTitleImage:
-    path:   sample/sample-substituteTitleImage.png
-    width:  1024
-    height: 800
-  warningLog: false   # To display warning, please set true.
+#generator_amp:
+#  templateDir:  amp-template
+#  assetDistDir: amp-dist
+#  logo:
+#    path:   sample/sample-logo.png
+#    width:  600
+#    height: 60
+#  substituteTitleImage:
+#    path:   sample/sample-substituteTitleImage.png
+#    width:  1024
+#    height: 800
+#  warningLog: false   # To display warning, please set true.
 
 
-asset_pipeline:
-  revisioning:
-    enable: true
-  clean_css:
-    enable: true
-  uglify_js:
-    enable: true
-  imagemin:
-    enable: true
-  html_minifier:
-    enable: true
+#asset_pipeline:
+#  revisioning:
+#    enable: true
+#  clean_css:
+#    enable: true
+#  uglify_js:
+#    enable: true
+#  imagemin:
+#    enable: true
+#  html_minifier:
+#    enable: true
+
+
+#autolinker:
+#    enable: true
+#    newWindow: true
+#    urls: true
+#    email: true
+#    tel: true
+#    twitter: true
+#    hashtag: facebook
+#    className: 'autolinker'
+
+    
